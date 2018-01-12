@@ -22,7 +22,7 @@ foldplot <- file.path(rootFold,"plots")
 CTDflag <- NULL
 foldin <- file.path(folddata,"CTD","Cnv")
 plotFL = F
-newFL = T
+newFL = F
 
 # Read in CTDs
 CTDs <- readSEActd(foldin,CTDflag=CTDflag,plotFL=plotFL,newFL = newFL,plotfold=foldplot)
